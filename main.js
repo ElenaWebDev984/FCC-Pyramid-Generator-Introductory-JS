@@ -19,16 +19,15 @@ function padRow(rowNumber, rowCount) {
       console.log("This is the else block");
     }*/
   
-let continueLoop = false;
-let done = 0;
 
-while (continueLoop) {
-  done++;
-  rows.push(padRow(done, count));
-  if (done == count) {
-    continueLoop = false;
-  }
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+for (let i = count; i > 0; false) {
+
 }
+
 
   let result = "";
   
